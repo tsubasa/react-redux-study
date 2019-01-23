@@ -3,8 +3,8 @@
 Reactの基本的な機能を理解する
 
 - Reactでコンポーネントを作成
-- Propsを指定して表示メッセージを変更する
-- Stateを利用して状態を保持する
+- Propsを指定して表示メッセージを変更する (`src/HelloWorld.tsx`)
+- Stateを利用して状態を保持する (`src/Counter.tsx`)
 
 ## デバッグ
 

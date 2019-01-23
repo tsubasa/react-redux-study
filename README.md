@@ -13,7 +13,7 @@
 
 ## case3
 
-- `typescript-fsa`, `typescript-fsa-reducers`を利用して、ActionとReducerをスマートに記述する
+- ActionCreator (`typescript-fsa`, `typescript-fsa-reducers`) を利用して、ActionとReducerをスマートかつ安全に記述する
 
 ## case4
 
