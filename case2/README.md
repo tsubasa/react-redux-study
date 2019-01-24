@@ -15,6 +15,13 @@ Action/Reducer/Storeそれぞれの役割について説明です。
 
 ReduxはFacebookが提唱する[Flux](https://facebook.github.io/flux/docs/in-depth-overview.html)の概念にインスパイアされ設計されているので、データの流れは一方方向になります。
 
+```
+                 +---------- Action <-------+
+                 |                          |
+                 v                          |
+Action ----> Dispatcher ----> Store ----> View
+```
+
 解りやすくcase2のサンプルコードで解説します。
 
 1. `src/reducers` でStoreで一元管理するStateを定義する
