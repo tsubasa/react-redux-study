@@ -2,11 +2,11 @@ import * as React from 'react';
 
 // types
 interface IProps {
-  message: React.ReactText;
+  message?: React.ReactText;
 }
 
 // components
-const HelloWorld = (props: IProps) => {
+const HelloWorld: React.FC<IProps> = props => {
   const { message } = props;
   return <h1>Hello, {message}</h1>;
 };
