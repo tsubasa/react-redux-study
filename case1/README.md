@@ -22,7 +22,7 @@ Reactのコンポーネントは代表的なものに`Class Component`と`Functi
 
 `src/Counter.tsx`のようなStateを扱うコンポーネントやライフサイクルメソッドをカスタマイズするような場合は[`Class Component`](https://reactjs.org/docs/state-and-lifecycle.html)で定義します。
 
-```jsx
+```tsx
 class Counter extends React.Component<{}, IState> {
   ...
 }
@@ -30,7 +30,7 @@ class Counter extends React.Component<{}, IState> {
 
 また`src/HelloWorld.tsx`のようなStatelessなコンポーネントは[`Function Component`](https://reactjs.org/docs/components-and-props.html)で定義します。
 
-```jsx
+```tsx
 const HelloWorld: React.FC<IProps> = props => {
   ...
 };

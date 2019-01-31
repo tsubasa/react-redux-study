@@ -13,8 +13,16 @@
 
 ## case3
 
-- ActionCreator (`typescript-fsa`, `typescript-fsa-reducers`) を利用して、ActionとReducerをスマートかつ安全に記述する
+- ActionCreatorを利用して、ActionとReducerをスマートかつ安全に記述する
 
 ## case4
 
 - `redux-saga`を利用して非同期処理を実装する
+
+## case5
+
+- `styled-components`を利用してコンポーネントを装飾する
+
+## case6
+
+- テストフレームワークを利用してテストを実行する
